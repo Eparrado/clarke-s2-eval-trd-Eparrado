@@ -1,14 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/styles.css">
     <title>Guess the number</title>
   </head>
   <body>
+    <main>
 
-    <script type="text/javascript" src="js/main.js">
+      <h1>Adivina el número</h1>
 
-    </script>
+      <div class="try-counter">
+        <p>0</p>
+      </div>
+
+      <div class="input-number">
+        <label for="firstnumber">Introduce aquí tu número</label>
+        <input type="number" name="firstnumber">
+        <input type="submit" name="submitbutton" value="Prueba">
+      </div>
+
+      <div class="player-data">
+        <input type="text" name="playername" placeholder="María">
+        <input type="submit" name="savebutton" value="Guarda">
+      </div>
+
+      <div class="hint-box">
+        <p>Escribe un número y dale a
+          <span>prueba</span>
+        </p>
+      </div>
+
+      <hr class="horizontal-line">
+    </main>
+
+    <aside class="history-record">
+      <ul class="historial">
+        <li>Player 1 - number of try</li>
+        <li>Player 2 - number of try</li>
+        <li>Player 3 - number of try</li>
+      </ul>
+    </aside>
+
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
