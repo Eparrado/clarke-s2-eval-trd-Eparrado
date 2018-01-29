@@ -1,3 +1,2 @@
-# clarke-s2-eval-trd-Eparrado
-Ejercicio de evaluación - Segundo Sprint
-Estela Parrado
+# First project with JavaScript
+"Guess the number" project, developed with JavaScript. 
